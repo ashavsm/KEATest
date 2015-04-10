@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<htmlmax-height:100%;">
+<head>
+
+	<meta https-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 ,user-scalable = no"/>
+  
+
+    <link rel="stylesheet" href="js/jquery.mobile-1.2.0.css" />
+    <link href="css/mycss.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jqueryalerts.js"></script>
+    <link rel="stylesheet" href="js/jqueryalerts.css"/>
+    <link href="js/datepicker/jquery.datetimepicker.css" rel="stylesheet" type="text/css" />
+    <script src="js/datepicker/jquery.datetimepicker.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script src="js/jquery.mobile-1.2.0.js" type="text/javascript"></script>
+    <script type="text/javascript" src="cordova-2.9.0.js"></script>
+    <script src="js/MicrosoftAjax.js" type="text/javascript"></script>
+        <!--<script src="http://ppc.star-knowledge.com/AppService.svc/js" type="text/javascript"></script>-->
+
+<body>
+ 
+<div data-role="page" id="indexPage" class="BodyBackground">
+        <div data-role="header" data-position="fixed">
+            <table class="HeaderTable" width="100%">
+            <tr class="HeaderTr">
+                <td width="15%" style="text-align:center!important;"> 
+                    <img src="images/17AAlogo.png" alt="" />
+                </td>
+                <td  width="70%" style="text-align:center!important;">
+                  AA Rescue 
+                </td>
+                 <td width="15%" style="text-align:left!important;">
+               
+                </td>
+            </tr>
+        </table> 
+            
+        </div>
+        <div data-role="content" style="padding:0px!important">
+            <div class="listData" onclick="gotoWhatTodoPage()">
+                
+                <p class="Assist">WHAT TO DO</p>
+            </div>
+            <div class="listData" onclick="gotoaccidentReportPage()">
+                <p class="Assist"> REPORT AN ACCIDENT</p>
+                
+            </div>
+              <div class="listDataCall">
+               
+                <a class="Assist" href="tel:10111" style="text-decoration: none; color: White">
+                <div style="padding: 20px">CALL POLICE</div>
+                </a>
+            </div>
+            <div class="listDataCall">
+               
+               <!-- <a href="tel:0861000234" style="text-decoration: none; color: White;">CALL AA</a>-->
+               <a href="tel:0861000234" style="text-decoration: none; color: White;">
+               <div style="padding: 20px">
+               CALL AA
+               </div>
+               </a>
+               
+            </div>
+            
+            
+            
+        </div>
+        <div dat-role="footer" data-position="fixed">
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="background-image:url('images/aabutton.png');height:70px;border-bottom: 1px solid black;" align="center" colspan="4" onclick="goindexPage()">
+                        <div>
+                            <img src="images/Caricon.png" alt="" />
+                            <div>
+                                <div class="footerfont">Accident</div>
+                                </td>
+                </tr>
+                <tr>
+                <td style="background-image:url('images/aabutton.png');height:70px;border-right: 1px solid black;" align="center" width="25%" onclick="window.jsinterface.getpoiString();">
+                        <div>
+                            <img src="images/poi.png" alt="" />
+                            <div>
+                                <div class="footerfont">POI</div>
+                                </td>
+                                <td style="background-image:url('images/aabutton.png');height:70px;border-right: 1px solid black;" align="center" width="25%" onclick="window.jsinterface.getflashString();">
+                        <div>
+                            <img src="images/flashlight.png" alt="" />
+                            <div>
+                                <div class="footerfont">Flashlight</div>
+                                </td>
+                    <td style="background-image:url('images/aabutton.png');height:70px;border-right: 1px solid black;" align="center" width="25%" onclick="window.jsinterface.getSomeString();">
+                        <div>
+                            <img src="images/Sttings.png" alt="" />
+                            <div>
+                                <div class="footerfont">Settings</div>
+                                </td>
+                    <td style="background-image:url('images/aabutton.png');height:70px;" align="center" width="25%" onclick="gotoAboutAAPage();">
+                        <div>
+                            <img src="images/AAnew.png" alt="" />
+                            <div>
+                                <div class="footerfont">About</div>
+                                </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
